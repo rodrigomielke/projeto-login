@@ -6,18 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                Foto
+                
             </div>
             <div id="form">
                 <h1>Login</h1>
-                <p>Seja bem vindo novamente! Faça login para acessar a sua conta.</p>
+                <p>Seja bem vindo novamente! Faça login para acessar a sua conta.</p> <br>
                 <form action="login.php" method="post">
-
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha">
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        
+                    </p>
                 </form>
             </div>
         </section>
